@@ -2,6 +2,7 @@ name: Core CI Workflow
 
 on:
   workflow_call:
+    secrets: inherit
 
 jobs:
   semantic-versioning:
