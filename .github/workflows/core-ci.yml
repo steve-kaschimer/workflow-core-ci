@@ -1,7 +1,7 @@
 name: Core CI Workflow
 
-on:    
-  workflow_call
+on:
+  workflow_call:
 
 jobs:
   semantic-versioning:
