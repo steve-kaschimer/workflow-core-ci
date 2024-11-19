@@ -5,7 +5,7 @@ on:
 
 jobs:
   semantic-versioning:
-    runs-on: Ubuntu
+    runs-on: ubuntu-latest
     
     name: Nerdbank.GitVersioning
     # You may pin to the exact commit or the version.
