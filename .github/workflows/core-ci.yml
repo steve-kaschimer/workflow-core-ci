@@ -11,7 +11,7 @@ jobs:
     # You may pin to the exact commit or the version.
     # uses: dotnet/nbgv@f088059084cb5d872e9d1a994433ca6440c2bf72
     steps:
-      - uses: steve-kaschimer/action-semantic-versioning/action.yaml #dotnet/nbgv@v0.4.2
+      - uses: steve-kaschimer/action-semantic-versioning/action.yaml@main #dotnet/nbgv@v0.4.2
         #with:
         #  # The path to the directory for which the version should be determined. This should be at or below the directory containing the version.json file. Default is repo root directory.
         #  path: # optional, default is .
